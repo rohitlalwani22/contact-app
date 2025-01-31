@@ -1,0 +1,103 @@
+
+
+
+  /* Main container styling */
+.main {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact List Heading */
+.main h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Button Styling */
+.ui.button.blue {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.ui.button.blue:hover {
+  background-color: #0056b3;
+}
+
+/* Right-align button */
+.right {
+  float: right;
+}
+
+/* Contact List Container */
+.ui.celled.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Each contact card style */
+.ui.celled.list .contact-card {
+  background-color: white;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.ui.celled.list .contact-card:last-child {
+  border-bottom: none;
+}
+
+/* Contact Name Styling */
+.contact-card .contact-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Contact Email */
+.contact-card .contact-email {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Delete Button */
+.contact-card .ui.button.red {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-card .ui.button.red:hover {
+  background-color: #c82333;
+}
+
+/* General Layout Adjustments */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
